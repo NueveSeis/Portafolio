@@ -1,0 +1,26 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/img/C2L-146.jpg"
+			alt="Foto de perfil de Kevin Ivan"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mí" />
+			<p class="about__text">
+				Un apasionado de la tecnologia radicado en la hermosa ciudad de Oaxaca. Desde joven, me fascinó el mundo de la tecnología y cómo podía transformar la vida de las personas. Esta pasión me llevó a elegir la ingeniería en sistemas computacionales como mi carrera profesional, permitiéndome explorar y crear soluciones innovadoras.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
