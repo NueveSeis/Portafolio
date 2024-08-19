@@ -9,5 +9,7 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
+  site: 'https://nueve.app',
   integrations: [react(), tailwind(), sitemap()]
 });
+
